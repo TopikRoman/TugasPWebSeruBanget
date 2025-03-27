@@ -50,9 +50,13 @@ nav ul li a:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 90%;
-  max-width: 400px;
+  max-width: 700px;
   margin: 50px auto;
   flex-grow: 1;
+}
+
+#Deskripsi {
+  margin: 10px 0;
 }
 
 input,
@@ -60,8 +64,9 @@ select,
 button {
   margin: 10px 0;
   padding: 8px;
-  width: 100%;
+  width: 400px;
   font-size: 16px;
+  border-radius: 12px; /* Menambahkan border-radius untuk melengkungkan ujung */
 }
 
 button {

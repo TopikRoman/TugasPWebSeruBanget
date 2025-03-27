@@ -18,29 +18,39 @@
     </header>
 
     <div class="container">
-      <h2>Konversi Mata Uang</h2>
+      <h2>Kalkulator Nilai Tukar</h2>
+      <label id="deskripsi">
+        Gunakan konverter di bawah ini untuk mendapatkan indikasi tarif yang
+        mungkin Anda terima saat menggunakan kartu Visa untuk membayar ketika
+        bepergian ke luar negeri.
+      </label>
+      <br />
+      <br />
       <label for="amount">Masukkan Jumlah:</label>
+      <br />
       <input type="text" id="amount" placeholder="Masukkan jumlah" required />
-
+      <br />
       <label for="fromCurrency">Dari:</label>
+      <br />
       <select id="fromCurrency"></select>
-
+      <br />
       <label for="toCurrency">Ke:</label>
+      <br />
       <select id="toCurrency"></select>
 
       <button onclick="convertCurrency()">Konversi</button>
 
       <h3 id="result"></h3>
+      <h4 id="resultafter"></h4>
     </div>
 
     <footer>
       <p>
-        © 2024
         <a
           href="https://github.com/TopikRoman/TugasPWebSeruBanget"
           target="_blank"
-          >Website Saya</a
-        >. All Rights Reserved.
+          >Ikut Serta Dalam Pengembangan</a
+        >
       </p>
     </footer>
 

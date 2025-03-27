@@ -141,9 +141,16 @@ function convertCurrency() {
     .then((data) => {
       const rate = data.rates[toCurrency];
       const convertedAmount = (amount * rate).toFixed(2);
+
+      const bankFee = 0.02;
+      const amountAfterFee = (convertedAmount * (1 - bankFee)).toFixed(2);
+
       document.getElementById(
         "result"
       ).textContent = `${amount} ${fromCurrency} = ${convertedAmount} ${toCurrency}`;
+      document.getElementById(
+        "resultafter"
+      ).textContent = `Setelah dikenakan biaya bank sentral (Sebesar 2%): ${amountAfterFee} ${toCurrency}`;
     })
     .catch((error) => console.error("Error fetching exchange rate:", error));
 }
