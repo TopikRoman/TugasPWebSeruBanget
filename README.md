@@ -38,7 +38,3 @@ Website ini menggunakan API dari [ExchangeRate-API](https://www.exchangerate-api
 ## Kontribusi
 
 Jika Anda ingin berkontribusi atau mengembangkan website ini lebih lanjut, Anda bisa membuat _pull request_ atau melaporkan masalah di [repository GitHub saya](https://github.com/TopikRoman/TugasPWebSeruBanget).
-
-## Lisensi
-
-Website ini dilisensikan dengan lisensi [MIT](LICENSE).
