@@ -1,0 +1,42 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Mata Uang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Money Exchanger</div>
+        <nav>
+            <ul>
+                <li><a href="#">Get API Key</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Support Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2>Konversi Mata Uang</h2>
+        <label for="amount">Masukkan Jumlah:</label>
+        <input type="text" id="amount" placeholder="Masukkan jumlah" required>
+        
+        <label for="fromCurrency">Dari:</label>
+        <select id="fromCurrency"></select>
+        
+        <label for="toCurrency">Ke:</label>
+        <select id="toCurrency"></select>
+        
+        <button onclick="convertCurrency()">Konversi</button>
+        
+        <h3 id="result"></h3>
+    </div>
+    
+    <footer>
+        <p>© 2024 <a href="#" target="_blank">Website Saya</a>. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html
